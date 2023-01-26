@@ -29,23 +29,23 @@ This project includes 3 code files for preprocessing the data, selecting feature
 <br>
 
 ### **R Files**
-#### [PreProcessing.R](repo/blob/main/R/PreProcessing.R): This file contains the code for preprocessing the data, which includes:
+#### [PreProcessing.R](R/PreProcessing.R): This file contains the code for preprocessing the data, which includes:
 - NULL Standardization.
 - Features Merging.
 - Currency Unification.
 - Features Removal.
 - Categorizing Numeric Data.
 
-#### [DecisionTree.R](repo/blob/main/R/DecisionTree.R): This file contains the code for building the decision tree using the C50 package in R.
+#### [DecisionTree.R](R/DecisionTree.R): This file contains the code for building the decision tree using the C50 package in R.
 
 <br>
 
 ### **Python File**
-#### [ExtraTreesClassifier.py](repo/blob/main/Python/ExtraTreesClassifier.py): This file contains the code for applying the Extra Trees Classifier algorithm to determine the most important features, which are then used to build the decision tree.
+#### [ExtraTreesClassifier.py](Python/ExtraTreesClassifier.py): This file contains the code for applying the Extra Trees Classifier algorithm to determine the most important features, which are then used to build the decision tree.
 
 <br><br>
 
->For a comprehensive understanding of the project, refer to the [Report.pdf](repo/blob/main/Report.pdf) file which includes a thorough explanation of the methodology, outcomes, and conclusions. The [FeaturesDetails.xlsx](repo/blob/main/Dataset/FeaturesDetails.xlsx) file also provides a detailed description of all 840 features used in the project. Additionally, a sample from the dataset used in this project, the [SefSec_2014_HH_weightNew.sav](repo/blob/main/Dataset/SefSec_2014_HH_weightNew.sav) file, is also included in the repository.
+>For a comprehensive understanding of the project, refer to the [Report.pdf](Report.pdf) file which includes a thorough explanation of the methodology, outcomes, and conclusions. The [FeaturesDetails.xlsx](Dataset/FeaturesDetails.xlsx) file also provides a detailed description of all 840 features used in the project. Additionally, a sample from the dataset used in this project, the [SefSec_2014_HH_weightNew.sav](Dataset/SefSec_2014_HH_weightNew.sav) file, is also included in the repository.
 
 <br>
 
@@ -68,7 +68,7 @@ This project includes 3 code files for preprocessing the data, selecting feature
 2. Ensure that you have all the [prerequisites](#prerequisites) installed.
 3. Install R needed packages by running this code `install.packages("haven", "tidyverse", "Hmisc", "C50")`.
 4. Install python needed packages by running the command `pip install sklearn pandas`.
-5. Execute the code in [PreProcessing.R](repo/blob/main/R/PreProcessing.R) line by line.
-6. Run the [ExtraTreesClassifier.py](repo/blob/main/Python/ExtraTreesClassifier.py) code, and copy the best 30 features from the console output.
-7. In [DecisionTree.R](repo/blob/main/R/DecisionTree.R), update the `features` to the ones you copied.
-8. Execute the code in [DecisionTree.R](repo/blob/main/R/DecisionTree.R) line by line.
+5. Execute the code in [PreProcessing.R](R/PreProcessing.R) line by line.
+6. Run the [ExtraTreesClassifier.py](Python/ExtraTreesClassifier.py) code, and copy the best 30 features from the console output.
+7. In [DecisionTree.R](R/DecisionTree.R), update the `features` to the ones you copied.
+8. Execute the code in [DecisionTree.R](R/DecisionTree.R) line by line.
