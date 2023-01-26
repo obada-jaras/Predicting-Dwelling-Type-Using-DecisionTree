@@ -1,5 +1,4 @@
 from sklearn.ensemble import ExtraTreesClassifier
-import os
 import pandas as pd
 
 # Read the .sav file and store it in the df dataframe
